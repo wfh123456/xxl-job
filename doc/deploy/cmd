@@ -1,0 +1,31 @@
+1）直接cd到项目路径下，输入执行命令：mvn clean package D:\project\tm>mvn clean package
+
+2）打包依赖jar包： D:\project\tm>mvn clean package dependency:copy-dependencies
+
+3）新建文件夹，里边建lib文件，把依赖jar包和项目jar包拷贝。
+
+4）建一个执行文件
+
+windows下：start.bat
+
+linux下:start.sh
+
+内容： java -jar ../lib/tm-001.jar
+
+如果要部署到linux，直接拷贝整个文件到linux某一目录下，执行start.sh问价即可。
+
+文件目录结构如下：
+
+——tm
+
+————lib
+
+——————依赖jar
+
+——————项目jar
+
+————bin
+
+——————start.sh
+
+——————start.bat
