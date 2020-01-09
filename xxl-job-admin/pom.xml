@@ -67,13 +67,13 @@
 		</dependency>
 
 		<!-- xxl-job-core -->
-		<dependency>
+		<!--<dependency>
 			<groupId>xxl-job-core</groupId>
 			<artifactId>xxl-job-core</artifactId>
 			<version>2.2.0-SNAPSHOT</version>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/libs/xxl-job-core-2.2.0-SNAPSHOT.jar</systemPath>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>com.xuxueli</groupId>
 			<artifactId>xxl-rpc-core</artifactId>
@@ -81,11 +81,12 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<!--<dependency>
+		<dependency>
 			<groupId>com.xuxueli</groupId>
 			<artifactId>xxl-job</artifactId>
 			<version>2.2.0-SNAPSHOT</version>
-		</dependency>-->
+		</dependency>
+
 		<dependency>
 			<groupId>com.xuxueli</groupId>
 			<artifactId>xxl-job-core</artifactId>
